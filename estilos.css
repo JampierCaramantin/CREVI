@@ -366,6 +366,18 @@ footer {
 }
 
 
+.fondo_servicios {
+    width: 100%;
+    height: 35vh;
+    position: relative;
+}
+.font_servivios {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /* responsivo */
 /* Inicio menu*/
 @media(max-width:991px) {
