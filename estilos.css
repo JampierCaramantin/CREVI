@@ -398,7 +398,7 @@ footer {
     height: 350px;
     overflow: hidden;
 }
-img_card img {
+.img_card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -432,6 +432,9 @@ img_card img {
 .pro_sin_mar {
     margin-top: 0;
 }
+
+
+
 
 /* responsivo */
 /* Inicio menu*/
@@ -477,3 +480,10 @@ img_card img {
     }
 }    
 /*fin resposiv* menu*/
+@media(max-width: 700Px) {
+    .cont_tar_ser {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+}
